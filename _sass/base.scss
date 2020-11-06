@@ -14,11 +14,11 @@ $blockquote-border: $dove-grey !default;
 body {
   margin: 0;
   padding: 0;
-  background: $body-background url("../assets/bkg.png") 0 0;
-  color: $body-foreground;
-  font-size: 16px;
+  background-color: #000;
+  color: #00ff00;
+  font-size: 12.5px;
   line-height: 1.5;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: "Source Code Pro",monospace;
 }
 
 /* General & 'Reset' Stuff */
