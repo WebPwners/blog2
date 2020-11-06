@@ -7,21 +7,26 @@ author:
 
 baseurl: /
 
-header_pages:
-  - index.html
-  - peter.md
-  - about.md
-  - contact.md
+baseurl: /
 
-style: hacker
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 3
+paginate_path: /page/:num/
 
-footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
-# Build settings
-markdown: kramdown
-remote_theme: b2a3e8/jekyll-theme-console
 
-theme: jekyll-theme-cayman
+# Custom variables
+owner : "SomeHacker"
+year : "2020"
 
 ... 
 layout: default
