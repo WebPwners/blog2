@@ -30,3 +30,9 @@ plugins:
 # Custom variables
 owner : "SomeHacker"
 year : "2020"
+
+... 
+layout: default
+comments: true
+# other options
+...
