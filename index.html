@@ -7,7 +7,7 @@ layout: default
         <td>Date: </td>
         <td>Title:</td>
     </tr>
-     {% for post in site.posts %}
+     {% for post in paginator.posts %}
         <tr>
             <td>{{ post.id }} </td>
             <td><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time> </td>
