@@ -51,11 +51,11 @@ li {
 
 header {
   background: rgba(0, 0, 0, 0);
-  border-bottom: 1px dotted #00ff00; //header;
-  padding: 20px;
-  margin: 0 0 60px 0;
+  border-bottom: 1px dashed #00ff00; //header;
+  padding: 10px 0;
+  margin: 20px auto;
   max-width: 600px;
-  border-top: 1px dotted #00ff00; 
+  border-top: 1px dashed #00ff00; 
 }
 
 .header-links {
@@ -273,5 +273,5 @@ a:active, a:focus {
 }
 
 #wrapper {
-  min-height: calc(100vh - 100px);
+  min-height: auto;
 }
