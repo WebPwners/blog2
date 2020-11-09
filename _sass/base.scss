@@ -106,6 +106,7 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
+   font-size: 12.5px !important
 }
 
 #main_content h1 {
@@ -239,7 +240,7 @@ hr {
 */
 
 a {
-  color: #63c0f5;
+  color: #00ff00;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
   text-decoration: none 
 }
@@ -276,6 +277,14 @@ a:active, a:focus {
 #wrapper {
   min-height: auto;
 }
+
 .pagination {
    display: none
+}
+
+footer {
+   border-top: 1px dashed #00ff00;
+   text-align: right;
+   max-width: 600px;
+   margin: auto;
 }
